@@ -1,0 +1,128 @@
+@import url("../fonts/font-lists.css");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #18191a;
+  color: #e4e6eb;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.inner {
+  width: 95vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ul-cleargap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0 !important;
+}
+
+a a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.capitalize {
+  text-transform: uppercase !important;
+}
+
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 70px;
+  max-width: 280px;
+  width: 100%;
+  height: 100%;
+  padding-top: 0px;
+}
+
+@media (max-width: 1100px) {
+  .left-sidebar {
+    display: none;
+  }
+  .mSdSL {
+    padding: 0 15px !important;
+  }
+  .mSdSL .story-section {
+    max-width: 100% !important;
+  }
+  .mSdSL .post-new-feed-section {
+    max-width: 100% !important;
+  }
+  .mSdSL .create-room {
+    max-width: 100% !important;
+  }
+  .mSdSL .new-feed {
+    max-width: 100% !important;
+  }
+  .drHfN .create-story .create-story-section1 img {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 898px) {
+  .right-sidebar {
+    display: none;
+  }
+}
+
+@media (min-width: 1281px) {
+  .sidebar {
+    min-width: 280px;
+    max-width: 360px;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
+
+@media (min-height: 700px) {
+  .bHGzLf .navbar-section2 {
+    margin-right: 20% !important;
+  }
+  .bHGzLf .navbar-section2 svg {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .bHGzLf .navbar-section2 .icon {
+    margin-right: 28px !important;
+  }
+  .mSdSL {
+    padding: 0 15px !important;
+  }
+  .mSdSL .story-section {
+    max-width: 680px !important;
+  }
+  .mSdSL .post-new-feed-section {
+    max-width: 680px !important;
+  }
+  .mSdSL .create-room {
+    max-width: 680px !important;
+  }
+  .mSdSL .new-feed {
+    max-width: 680px !important;
+  }
+  .drHfN .create-story .create-story-section1 img {
+    width: 100% !important;
+  }
+}
+
+@media (max-height: 700px) and (min-width: 1400px) {
+  .bHGzLf .navbar-section2 .icon {
+    margin-right: 40px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
