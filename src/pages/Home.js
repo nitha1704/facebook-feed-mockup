@@ -32,7 +32,7 @@ const WrapHome = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
-  padding: 70px 10px;
+  padding: 70px 10px 10px 10px;
 `;
 
 export default Home;
