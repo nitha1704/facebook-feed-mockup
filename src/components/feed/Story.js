@@ -198,6 +198,18 @@ const StoryWrapper = styled.div`
       filter: invert(70%);
     }
   }
+
+  @media (max-width: 610px) {
+    .friend-story:last-child {
+      display: none;
+    }
+    .wrap-story {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .see-all-stories {
+      right: 5px;
+    }
+  }
 `;
 
 export default Story;

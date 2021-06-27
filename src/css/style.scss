@@ -12,6 +12,7 @@ body {
   background: $primaryDarkModeBackgroundColor;
   color: $primaryDarkModeTextColor;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
 }
 
 img {
@@ -51,9 +52,6 @@ a:focus {
 
 // Max
 
-@media (max-width: 1260px){
-  
-}
 @media (max-width: 1100px) {
   .left-sidebar {
     display: none;
@@ -84,12 +82,16 @@ a:focus {
   }
 }
 
+@media (max-width: 460px) {
+  .app {
+    min-width: 450px;
+  }
+}
 
 
 
 
-
-
+ 
 // Min
 @media (min-width: 1281px) {
   .sidebar {

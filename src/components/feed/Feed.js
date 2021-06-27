@@ -47,5 +47,12 @@ const FeedWrapper = styled.div`
     max-width: 500px;
     margin: 0 auto;
   }
+
+  @media (max-width: 610px) {
+    padding: 0;
+    .story-section {
+      min-width: auto;
+    }
+  }
 `;
 export default Feed;

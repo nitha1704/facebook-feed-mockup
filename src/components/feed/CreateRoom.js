@@ -162,6 +162,12 @@ const CreateRoomWrapper = styled.div`
       }
     }
   }
+
+  @media (max-width: 460px) {
+    .contact-user:last-child {
+      display: none;
+    }
+  }
 `;
 
 export default CreateRoom;
