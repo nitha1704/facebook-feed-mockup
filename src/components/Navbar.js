@@ -444,7 +444,7 @@ const Nav = styled.nav`
       }
     }
   }
-  @media (max-width: 400px) {
+  @media (max-width: 350px) {
     .wrap-hamburger-menu {
       display: none !important;
     }

@@ -66,7 +66,7 @@ const FeedWrapper = styled.div`
     }
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 350px) {
     .story-section {
       display: none;
     }
