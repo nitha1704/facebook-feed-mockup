@@ -26,7 +26,6 @@ const Feed = () => {
 const FeedWrapper = styled.div`
   margin-top: 10px;
   width: 100%;
-  min-height: 200vh;
   padding: 0 50px;
   .story-section {
     display: flex;
