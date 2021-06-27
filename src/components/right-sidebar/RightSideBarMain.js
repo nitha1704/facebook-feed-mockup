@@ -8,11 +8,13 @@ import GroupConversation from "./GroupConversation";
 const RightSideBarMain = () => {
   return (
     <RightSidebar className="sidebar right-sidebar">
-      <Sponsor />
-      <div className="line1"></div>
-      <Contacts />
-      <div className="line2"></div>
-      <GroupConversation />
+      <div className="right-sidebar-wrapper">
+        <Sponsor />
+        <div className="line1"></div>
+        <Contacts />
+        <div className="line2"></div>
+        <GroupConversation />
+      </div>
     </RightSidebar>
   );
 };

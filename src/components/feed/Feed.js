@@ -65,5 +65,37 @@ const FeedWrapper = styled.div`
       max-width: 680px;
     }
   }
+
+  @media (max-width: 450px) {
+    .story-section {
+      display: none;
+    }
+    .post-new-feed-section {
+      max-width: 88vw;
+      margin: 0;
+
+      .post-new-feed-section2 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .post-new-feed-section2-3 {
+        display: none;
+      }
+    }
+    .create-room {
+      display: none;
+      max-width: 88vw;
+      margin: 0;
+    }
+    .new-feed {
+      max-width: 88vw;
+      margin: 0;
+    }
+
+    .write-comment-item2 {
+      .icons {
+        display: none !important;
+      }
+    }
+  }
 `;
 export default Feed;

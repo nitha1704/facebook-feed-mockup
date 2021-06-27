@@ -147,5 +147,9 @@ const PostNewFeedWrapper = styled.div`
       color: #b0b3b8;
     }
   }
+
+  @media (max-width: 450px) {
+    margin-top: -5px;
+  }
 `;
 export default PostNewFeed;

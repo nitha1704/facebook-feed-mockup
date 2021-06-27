@@ -444,5 +444,17 @@ const Nav = styled.nav`
       }
     }
   }
+  @media (max-width: 450px) {
+    .wrap-hamburger-menu {
+      display: none !important;
+    }
+    .icon.create {
+      display: none !important;
+    }
+    .navbar-section3 .item {
+      width: 35px !important;
+      height: 35px !important;
+    }
+  }
 `;
 export default Navbar;
