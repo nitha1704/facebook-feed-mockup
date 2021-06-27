@@ -53,5 +53,17 @@ const FeedWrapper = styled.div`
       min-width: auto;
     }
   }
+
+  @media (min-height: 700px) {
+    .post-new-feed-section {
+      max-width: 680px;
+    }
+    .create-room {
+      max-width: 680px;
+    }
+    .new-feed {
+      max-width: 680px;
+    }
+  }
 `;
 export default Feed;
