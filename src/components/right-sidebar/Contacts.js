@@ -10,7 +10,6 @@ const Contacts = () => {
     setContactUsers(UserData);
   }, []);
 
-  console.log(contactUsers);
   return (
     <ContactsWrapper className="contacts">
       <div className="contacts-section1">

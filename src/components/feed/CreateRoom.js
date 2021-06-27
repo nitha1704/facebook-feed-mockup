@@ -9,7 +9,6 @@ const CreateRoom = () => {
     setContactUsersCreateRoom(UserData);
   }, []);
 
-  console.log(contactUsersCreateRoom);
   return (
     <CreateRoomWrapper className="create-room-wrapper">
       <div className="create-room-section1">
